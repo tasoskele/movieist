@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 public class Review {
     private ObjectId id;
     private String body;
+    private String author;
     private LocalDateTime created;
     private LocalDateTime updated;
 
